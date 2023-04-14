@@ -83,12 +83,28 @@ section {
     align-items: center;
     background-image: url("img/bg1-1.jpg");
     background-size: 100%;
-    /* background: var(--second-bg-colour); */
+}
+
+.home-content .about-intro {
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+.about-intro {
+    /* background-color: var(--bg-colour); */
+    /* color: #101010; */
+    /* font-weight: bold; */
 }
 
 .home-content h3 {
     font-size: 2.6rem;
     font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.home-content .multiple-text {
+    font-weight: 500;
 }
 
 .home-content h3:nth-of-type(2) {
