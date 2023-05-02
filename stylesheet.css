@@ -130,6 +130,12 @@ span {
 .home-img img {                 /* home image size adjsuting */
     width: 25vw;
     /* animation: floatImage 4s ease-in-out infinite; */
+
+    /* background-attachment: scroll;
+    background-position: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
 
 .social-media a {
@@ -353,13 +359,46 @@ span {
         width: 70vw;
     }
 
-    .footer {
+    /* .footer {
         flex-direction: column-reverse;
     }
 
-    .footer p {
+    /* .footer p {
         text-align: center;
         margin-top: 2rem;
-    }
+    } */ */
 }
 
+footer {
+    position: relative;
+    top: auto;
+    bottom: auto;
+    width: 100%;
+}
+
+.footer-ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .footer-ul {
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: left;
+    margin: 0;
+    transition: 1s;
+  }
+  
+  .footer-ul2 li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .footer-logo {
+    padding-left: 50%;
+  }
