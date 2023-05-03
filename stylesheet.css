@@ -181,13 +181,25 @@ span {
     box-shadow: none;
 }
 
-.about {
+/* .about {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
     background: var(--second-bg-colour);
+} */
+
+.column-2-unjust {
+    float: left;
+    width: 45%;
+    /* text-align: center; */
+    text-align: justify;
+    padding: 30px;
 }
+
+#column-2-img{
+    padding-left: 20%;
+  }
 
 .services h2 {
     margin-bottom: 5rem;
